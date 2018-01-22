@@ -132,9 +132,10 @@
 	<div class="mypage">		
 	  		
 
-	  <p>When installing latex packages for Latex. Users can either install texlive-basics or full version texlive. However, the basic version is light version uses much less strorage. Instead, full version texlive covers most of packages but more storage on disk.<br>I choose to install texlive-basic and install the packages required for my Latex file.</p>
+	  <p>When installing latex packages for Latex. Users can either install texlive-basics or full version texlive. However, the basic version is light version uses much less strorage. Instead, full version texlive covers most of packages but more storage on disk.</p>
+<h2 id="Install-texlive-basic"><a href="#Install-texlive-basic" class="headerlink" title="Install texlive-basic"></a>Install texlive-basic</h2><p>I choose to install texlive-basic and install the packages required for my Latex file.</p>
 <a id="more"></a>
-<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">sudo tlmgr install fontaxes</span><br></pre></td></tr></table></figure>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">sudo tlmgr install fontaxes</span><br></pre></td></tr></table></figure>
 <p>Then it shows<br><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">! LaTeX Error: File `fontaxes.sty<span class="string">' not found.Type X to quit or &lt;RETURN&gt; to proceed,or enter new name. (Default extension: sty)Enter file name:! Emergency stop.&lt;read &gt; \fi</span></span><br></pre></td></tr></table></figure></p>
 <h2 id="Package-not-found-by-tlmgr"><a href="#Package-not-found-by-tlmgr" class="headerlink" title="Package not found by tlmgr"></a>Package not found by tlmgr</h2><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">tlmgr install: package fontaxes.sty not present <span class="keyword">in</span> repository.</span><br></pre></td></tr></table></figure>
 <p>We can search the file name directly and manually installs the <code>.sty</code> package.</p>
